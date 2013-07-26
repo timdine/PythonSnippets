@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+
+"""exifTags.py: Extracts the exif tags from a series of photos into a feature class with a hyperlinkable field."""
+
+__author__      = "Tim Dine"
+#__copyright__ = "Copyright 2013"
+#__credits__ = []
+#__license__ = ""
+#__version__ = "1.0.1"
+__maintainer__ = "Tim Dine"
+__email__ = "timdine@hotmail.com"
+__status__ = "Experimental"
+
 from __future__ import division
 from PIL import Image
 from PIL.ExifTags import TAGS
